@@ -461,7 +461,7 @@
                   // 从一言接口得到的JSON结果
                   if (result) {
                       // 需要的结果字段名，取决于_config[.主题名称].yml中的配置
-                      var keys = 'content,created_at'.split(',');
+                      var keys = 'data,content'.split(',');
                       if (result instanceof Array) {
                           // 得到 去掉外层{}的 数据
                           result = result[0];
