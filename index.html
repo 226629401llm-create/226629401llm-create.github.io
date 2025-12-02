@@ -457,11 +457,11 @@
                   // 打字机输出内容
                   var apiText;
                   // 一言、来源作品、发言人
-                  var content, origin, fromWho;
+                  var content, name, fromWho;
                   // 从一言接口得到的JSON结果
                   if (result) {
                       // 需要的结果字段名，取决于_config[.主题名称].yml中的配置
-                      var keys = 'data,content,origin'.split(',');
+                      var keys = 'data,content,name'.split(',');
                       if (result instanceof Array) {
                           // 得到 去掉外层{}的 数据
                           result = result[0];
@@ -472,8 +472,8 @@
                           if (typeof value === 'string') {
                               if (content == null) {
                                   content = value;
-                              } else if (origin == null) {
-                                  origin = value
+                              } else if (name == null) {
+                                  name = value
                               } else if (fromWho == null) {
                                   fromWho = value;
                               }
@@ -490,7 +490,7 @@
                       if (fromWho != null) {
                           apiText += fromWho;
                       }
-                      apiText += '「' + origin + '」</p>';
+                      apiText += '「' + name + '」</p>';
                   }
                   apiText ? typing(apiText) : typing(text);
               },
