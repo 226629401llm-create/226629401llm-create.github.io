@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>博客示例模板</title>
+    <link href="/2025/12/06/%E5%8D%9A%E5%AE%A2%E7%A4%BA%E4%BE%8B%E6%A8%A1%E6%9D%BF/"/>
+    <url>/2025/12/06/%E5%8D%9A%E5%AE%A2%E7%A4%BA%E4%BE%8B%E6%A8%A1%E6%9D%BF/</url>
+    
+    <content type="html"><![CDATA[<p>带标签和分类的示例模板，使用方法如下：</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs c++">title: 标题<br>categories: 分类<br>tags: 标签<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Typora 的 Markdown 语法</title>
     <link href="/2025/12/01/Typora-%E7%9A%84-Markdown-%E8%AF%AD%E6%B3%95/"/>
     <url>/2025/12/01/Typora-%E7%9A%84-Markdown-%E8%AF%AD%E6%B3%95/</url>
