@@ -1,0 +1,9 @@
+.contact-mail:hover {
+  opacity: 0.7;
+  background-color: blue;
+}
+
+.contact-mail {
+  width: 30px;
+  height: 30px;
+}
