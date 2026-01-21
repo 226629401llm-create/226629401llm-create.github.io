@@ -1,0 +1,820 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head><!-- hexo injector head_begin start --><link rel="stylesheet" href="/css/my-avatar.css"><!-- hexo injector head_begin end -->
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#9B8699">
+  <meta name="author" content="你di小盆友哦">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="前言9008工具大多指QPST工具里面的QFIL。QFIL作为搭载高通处理器手机的刷写工具，具有强大的功能，使用他可以使你的手机起死回生，也能为您的设备进行一些修改。当然，部分手机和程序具有自检校验程序，所以使用该工具具有较大的风险。此教程描述的是我个人的一些经验所得，请勿模仿，对特指出存在风险的动作请不要操作！本人不承担任何导致您受损的责任。 准备阶段需要什么 一台搭载Windows的电脑  Q">
+<meta property="og:type" content="article">
+<meta property="og:title" content="QFIL9008工具使用说明">
+<meta property="og:url" content="http://example.com/2026/01/20/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/index.html">
+<meta property="og:site_name" content="diary">
+<meta property="og:description" content="前言9008工具大多指QPST工具里面的QFIL。QFIL作为搭载高通处理器手机的刷写工具，具有强大的功能，使用他可以使你的手机起死回生，也能为您的设备进行一些修改。当然，部分手机和程序具有自检校验程序，所以使用该工具具有较大的风险。此教程描述的是我个人的一些经验所得，请勿模仿，对特指出存在风险的动作请不要操作！本人不承担任何导致您受损的责任。 准备阶段需要什么 一台搭载Windows的电脑  Q">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/6c461a178a259160e962e77000a6676b.png">
+<meta property="og:image" content="http://example.com/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/810dba10d1c8d2713ac88941674e63d7.png">
+<meta property="og:image" content="http://example.com/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/1d9b11ea62e930b309a9e743e76226b1.png">
+<meta property="og:image" content="http://example.com/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/48e809b7771e0c1acba9901f881b7bd3.png">
+<meta property="og:image" content="http://example.com/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/dd4d39c914f1090c2cc3227e0f68eda8.png">
+<meta property="og:image" content="http://example.com/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/aafb821d7274e652412951aeb3d8cb15.png">
+<meta property="og:image" content="http://example.com/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/1f31886cecdb246716a7f332f9e2a4fa.png">
+<meta property="og:image" content="http://example.com/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/bbd01ef36394aff6caa9a778283e20c9.png">
+<meta property="og:image" content="http://example.com/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/5151515aa1b276a484430d0fcfa49ad8.png">
+<meta property="og:image" content="http://example.com/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/581d6f4603aa2f8837c774a9d1a685e7.png">
+<meta property="og:image" content="http://example.com/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/73e96536d004fec70d2a90143256fd37.png">
+<meta property="article:published_time" content="2026-01-20T11:06:33.539Z">
+<meta property="article:modified_time" content="2025-12-08T13:15:48.000Z">
+<meta property="article:author" content="你di小盆友哦">
+<meta property="article:tag" content="9008">
+<meta property="article:tag" content="刷机">
+<meta property="article:tag" content="工具使用">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/6c461a178a259160e962e77000a6676b.png">
+  
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
+  
+  
+  <title>QFIL9008工具使用说明 - diary</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":"ture","follow_dnt":true,"baidu":null,"google":"measurement_id:G-PHFYQFGRSY","tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+<meta name="generator" content="Hexo 8.1.1"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>你di小盆友哦</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/" target="_self">
+                <i class="iconfont icon-link-fill"></i>
+                <span>友链</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="QFIL9008工具使用说明"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2026-01-20 03:06" pubdate>
+          2026年1月20日 凌晨
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          1.6k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          14 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">QFIL9008工具使用说明</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>9008工具大多指QPST工具里面的QFIL。QFIL作为搭载高通处理器手机的刷写工具，具有强大的功能，使用他可以使你的手机起死回生，也能为您的设备进行一些修改。当然，部分手机和程序具有自检校验程序，所以使用该工具具有较大的风险。此教程描述的是我个人的一些经验所得，请勿模仿，对特指出存在风险的动作请不要操作！本人不承担任何导致您受损的责任。</p>
+<h2 id="准备阶段"><a href="#准备阶段" class="headerlink" title="准备阶段"></a>准备阶段</h2><h3 id="需要什么"><a href="#需要什么" class="headerlink" title="需要什么"></a>需要什么</h3><ul>
+<li><p>一台搭载Windows的电脑</p>
+</li>
+<li><p>QPST软件程序包（自行下载，本站不提供任何资源）</p>
+</li>
+<li><p>可传输数据的数据线</p>
+</li>
+<li><p>一台搭载高通处理器的手机</p>
+</li>
+<li><p>elf配置文件（.elf)</p>
+</li>
+<li><p>高通9008驱动</p>
+</li>
+</ul>
+<h3 id="温馨提示"><a href="#温馨提示" class="headerlink" title="温馨提示"></a>温馨提示</h3><ul>
+<li>elf文件指驱动9008读取分区表的配置文件，里面记录了手机分区信息，对于部分品牌，由于该文件属于保密文件，部分手机没有该文件，请查询是否能下载该文件再决定是否进行9008操作。</li>
+<li>电脑需要是实体机，且usb口没有问题，Windows7&#x2F;xp、Windows10、Windows11均可，如果遇到无法读取端口，请尝试更换usb口或更换数据线，Windows10以下版本可能需要禁用驱动签名，方法自行搜索。</li>
+<li>数据线和手机尾插口有松动接触不良等情况，请先解决这个问题再操作，否则可能造成设备损坏。</li>
+<li>刷写过程中严禁拔数据线，否则大概率会损坏设备。</li>
+<li>小米的elf文件可以在线刷包中解压得到，lg的基本上都有，可以在某些资源站找到。</li>
+</ul>
+<h2 id="开始操作"><a href="#开始操作" class="headerlink" title="开始操作"></a>开始操作</h2><h3 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h3><p>使用9008进行操作只需要安装两个软件：</p>
+<ul>
+<li><p>安装QPST以进行可视化软件操作</p>
+</li>
+<li><p>安装9008驱动程序使手机可链接电脑进行读写操作</p>
+</li>
+</ul>
+<h3 id="使设备进入9008模式"><a href="#使设备进入9008模式" class="headerlink" title="使设备进入9008模式"></a>使设备进入9008模式</h3><p>手机进入9008模式有两种方法：</p>
+<ol>
+<li>不拆机使用组合按键进入</li>
+<li>拆机短接进入</li>
+</ol>
+<p>两种方法各有利弊，请挑选适合自己的方法。</p>
+<h4 id="不拆机组合按键进入："><a href="#不拆机组合按键进入：" class="headerlink" title="不拆机组合按键进入："></a>不拆机组合按键进入：</h4><p>通常如果不想拆机使设备进入9008模式，则可以使用组合按键的方法进入9008模式，但是操作比较复杂，尤其是lg，且需要设备可以亮屏（不要求设备能进入系统）。</p>
+<p>这里只记录LG进入9008的方法：</p>
+
+    <div class="fold">
+      <div class="fold-title fold-info collapsed" data-toggle="collapse" href="#collapse-983e215a" role="button" aria-expanded="false" aria-controls="collapse-983e215a">
+        <div class="fold-arrow">▶</div>title
+      </div>
+      <div class="fold-collapse collapse" id="collapse-983e215a">
+        <div class="fold-content">
+          <p>三个按键一起按</p> <p>屏幕一黑</p> <p>立马狂按音量加</p> <p>(电源键和音量减不要松</p> <p>直到电脑叮咚一下</p> <p>或者qfil软件框内出现了9008设备</p> 
+        </div>
+      </div>
+    </div>
+
+<h4 id="拆机短接进入"><a href="#拆机短接进入" class="headerlink" title="拆机短接进入"></a>拆机短接进入</h4><p>这种方法一般适用于设备彻底不亮了，被格机了，不想使用按键等其他方法进入的。</p>
+<p>需要拆开手机后盖找到对应的触点，一般为两个相邻的露铜点，具体位置自行查询。</p>
+<p>使用金属导体连接两个铜触点，再插入数据线连接电脑，等待设备管理器端口出现9008设备(上文记录为电脑叮咚一下)或qfil软件框内出现了9008设备，即可松开金属导体。</p>
+<h3 id="使用软件"><a href="#使用软件" class="headerlink" title="使用软件"></a>使用软件</h3><p>本文默认安装下载好了QFIL软件和9008驱动，并且已经按照上文将设备进入9008模式连接至电脑。</p>
+<p>选中Flat Build：</p>
+<p><img src="/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/6c461a178a259160e962e77000a6676b.png" srcset="/img/loading.gif" lazyload alt="6c461a178a259160e962e77000a6676b"></p>
+<p>展开Configuration菜单，选择FireHose Configuration对软件进行配置：</p>
+<p><img src="/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/810dba10d1c8d2713ac88941674e63d7.png" srcset="/img/loading.gif" lazyload alt="810dba10d1c8d2713ac88941674e63d7"></p>
+<p>配置成下图：</p>
+<p><img src="/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/1d9b11ea62e930b309a9e743e76226b1.png" srcset="/img/loading.gif" lazyload alt="1d9b11ea62e930b309a9e743e76226b1"></p>
+<p>保存设置后点击Browse加载分区表elf文件：</p>
+<p><img src="/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/48e809b7771e0c1acba9901f881b7bd3.png" srcset="/img/loading.gif" lazyload alt="48e809b7771e0c1acba9901f881b7bd3"></p>
+<p>然后展开Tool菜单选择Partition Manager打开分区表：</p>
+<p><img src="/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/dd4d39c914f1090c2cc3227e0f68eda8.png" srcset="/img/loading.gif" lazyload alt="dd4d39c914f1090c2cc3227e0f68eda8"></p>
+<p>选中需要修改的分区，然后右键展开菜单。</p>
+<p>一般选择Manage Partition Data对分区进行操作。</p>
+<p>严禁选择<span class="label label-warning">Erase Entire Flash</span>，这样做会删除您设备内所有分区！！！</p>
+<p><img src="/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/aafb821d7274e652412951aeb3d8cb15.png" srcset="/img/loading.gif" lazyload alt="aafb821d7274e652412951aeb3d8cb15"></p>
+<p>对这些分区的操作如下表所示：</p>
+<table>
+<thead>
+<tr>
+<th align="center">Erase</th>
+<th align="center">Read Data</th>
+<th align="center">Load Image</th>
+<th align="center">Close</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">擦除分区</td>
+<td align="center">读取分区</td>
+<td align="center">写入分区</td>
+<td align="center">关闭窗口</td>
+</tr>
+</tbody></table>
+<ul>
+<li>Read Data：一般适用于将手机内分区读取至电脑，文件存放在C:\Users\你的当前用户名\AppData\Roaming\Qualcomm\QFIL\COMPORT_端口号</li>
+<li>Load Image：一般适用于将修改过的分区写入手机对应分区，或恢复手机该分区。</li>
+</ul>
+<p><img src="/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/1f31886cecdb246716a7f332f9e2a4fa.png" srcset="/img/loading.gif" lazyload alt="1f31886cecdb246716a7f332f9e2a4fa"></p>
+<p>如果需要刷9008线刷包，则在配置完软件后点击LoadXML，选择线刷包内所有的XML文件后刷入，大概步骤如下：</p>
+<p><img src="/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/bbd01ef36394aff6caa9a778283e20c9.png" srcset="/img/loading.gif" lazyload alt="bbd01ef36394aff6caa9a778283e20c9"></p>
+<p><img src="/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/5151515aa1b276a484430d0fcfa49ad8.png" srcset="/img/loading.gif" lazyload alt="5151515aa1b276a484430d0fcfa49ad8"></p>
+<p><img src="/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/581d6f4603aa2f8837c774a9d1a685e7.png" srcset="/img/loading.gif" lazyload alt="581d6f4603aa2f8837c774a9d1a685e7"></p>
+<p><img src="/img/QFIL9008%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.assets/73e96536d004fec70d2a90143256fd37.png" srcset="/img/loading.gif" lazyload alt="73e96536d004fec70d2a90143256fd37"></p>
+<p>如报错请尝试以下方案：</p>
+<ul>
+<li>将设备重新进入9008模式再次操作</li>
+<li>更换数据线</li>
+<li>更换电脑接口</li>
+<li>检查准备的文件是否正常，包括但不限于：文件损坏、文件位置挪动、使用不正确的文件。</li>
+</ul>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%89%8B%E6%9C%BA%E5%88%B7%E6%9C%BA/" class="category-chain-item">手机刷机</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/9008/" class="print-no-link">#9008</a>
+      
+        <a href="/tags/%E5%88%B7%E6%9C%BA/" class="print-no-link">#刷机</a>
+      
+        <a href="/tags/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/" class="print-no-link">#工具使用</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>QFIL9008工具使用说明</div>
+      <div>http://example.com/2026/01/20/QFIL9008工具使用说明/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>你di小盆友哦</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2026年1月20日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2026/01/20/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" title="这是本站的第一篇文章">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">这是本站的第一篇文章</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2026/01/20/Typora-%E7%9A%84-Markdown-%E8%AF%AD%E6%B3%95/" title="Typora 的 Markdown 语法">
+                        <span class="hidden-mobile">Typora 的 Markdown 语法</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=FyUlISElLiMnJldmZjl0eHo" target="_blank" class="iconfont icon-mail"> </a> <a href="https://github.com/226629401llm-create" target="_blank" class="iconfont icon-github-fill"> </a> <a href="http://www.coolapk.com/u/5442165" target="_blank" class="iconfont icon-coolapk"> </a> 
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+
+  
+
+</div>
+
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+
+  <script>
+      (function (window, document) {
+          var typing = Fluid.plugins.typing;
+          var subtitle = document.getElementById('subtitle');
+          if (!subtitle || !typing) {
+              return;
+          }
+          var text = subtitle.getAttribute('data-typed-text');
+          
+          typing(text);
+          
+      })(window, document);
+  </script>
+ 
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
