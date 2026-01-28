@@ -8,7 +8,7 @@
     <link href="/2026/01/28/RST%E5%92%8CSET/"/>
     <url>/2026/01/28/RST%E5%92%8CSET/</url>
     
-    <content type="html"><![CDATA[<p>关于RST和SET，信捷手册是这样描述的：</p><p><img src="/img%5CST%E5%92%8CSET.assets%5Cimage-20260128202703411.png" alt="image-20260128202703411"></p><h4 id="指令说明"><a href="#指令说明" class="headerlink" title="指令说明"></a>指令说明</h4><ul><li>在下述程序示例中，X10一旦接通后，即使它再断开，Y0仍继续动作。X11一旦接通时，即使它再断<br>开，Y0仍保持不被驱动。对于M、S也是一样的。 </li><li>对于同一软元件，SET、RST可多次使用，顺序也可随意，但最后执行者有效。</li><li>此外，定时器、计数器当前值的复位以及触点复位也可使用RST指令。 </li><li>使用SET、RST指令时，避免与OUT指令使用同一个软元件地址。</li></ul><h4 id="编程示例"><a href="#编程示例" class="headerlink" title="编程示例"></a>编程示例</h4><p><img src="/img%5CST%E5%92%8CSET.assets%5Cimage-20260128203020619.png" alt="image-20260128203020619"></p>]]></content>
+    <content type="html"><![CDATA[<p>关于RST和SET，信捷手册是这样描述的：</p><p><img src="/img/ST%E5%92%8CSET.assets/image-20260128202703411.png" alt="image-20260128202703411"></p><h4 id="指令说明"><a href="#指令说明" class="headerlink" title="指令说明"></a>指令说明</h4><ul><li>在下述程序示例中，X10一旦接通后，即使它再断开，Y0仍继续动作。X11一旦接通时，即使它再断<br>开，Y0仍保持不被驱动。对于M、S也是一样的。 </li><li>对于同一软元件，SET、RST可多次使用，顺序也可随意，但最后执行者有效。</li><li>此外，定时器、计数器当前值的复位以及触点复位也可使用RST指令。 </li><li>使用SET、RST指令时，避免与OUT指令使用同一个软元件地址。</li></ul><h4 id="编程示例"><a href="#编程示例" class="headerlink" title="编程示例"></a>编程示例</h4><p><img src="/img/ST%E5%92%8CSET.assets/image-20260128203020619.png" alt="image-20260128203020619"></p>]]></content>
     
     
     <categories>
@@ -33,7 +33,7 @@
     <link href="/2026/01/28/%E8%BF%AA%E7%BB%B4%E8%AE%AFp200h%E6%95%85%E9%9A%9C%E7%A0%81/"/>
     <url>/2026/01/28/%E8%BF%AA%E7%BB%B4%E8%AE%AFp200h%E6%95%85%E9%9A%9C%E7%A0%81/</url>
     
-    <content type="html"><![CDATA[<p>迪维讯P200H故障码及对应故障如下：</p><p><img src="/img%5C%E8%BF%AA%E7%BB%B4%E8%AE%AFp200h%E6%95%85%E9%9A%9C%E7%A0%81.assets%5C1.jpg" alt="1"></p><p><img src="/img%5C%E8%BF%AA%E7%BB%B4%E8%AE%AFp200h%E6%95%85%E9%9A%9C%E7%A0%81.assets%5C2.jpg" alt="2"></p><p><img src="/img%5C%E8%BF%AA%E7%BB%B4%E8%AE%AFp200h%E6%95%85%E9%9A%9C%E7%A0%81.assets%5C4.jpg" alt="4"></p><p><img src="/img%5C%E8%BF%AA%E7%BB%B4%E8%AE%AFp200h%E6%95%85%E9%9A%9C%E7%A0%81.assets%5C3.jpg" alt="3"></p><p><img src="/img%5C%E8%BF%AA%E7%BB%B4%E8%AE%AFp200h%E6%95%85%E9%9A%9C%E7%A0%81.assets%5C6.jpg" alt="6"></p><p><img src="/img%5C%E8%BF%AA%E7%BB%B4%E8%AE%AFp200h%E6%95%85%E9%9A%9C%E7%A0%81.assets%5C5.jpg" alt="5"></p>]]></content>
+    <content type="html"><![CDATA[<p>迪维讯P200H故障码及对应故障如下：</p><p><img src="/img/%E8%BF%AA%E7%BB%B4%E8%AE%AFp200h%E6%95%85%E9%9A%9C%E7%A0%81.assets/1.jpg" alt="1"></p><p><img src="/img/%E8%BF%AA%E7%BB%B4%E8%AE%AFp200h%E6%95%85%E9%9A%9C%E7%A0%81.assets/2.jpg" alt="2"></p><p><img src="/img/%E8%BF%AA%E7%BB%B4%E8%AE%AFp200h%E6%95%85%E9%9A%9C%E7%A0%81.assets/4.jpg" alt="4"></p><p><img src="/img/%E8%BF%AA%E7%BB%B4%E8%AE%AFp200h%E6%95%85%E9%9A%9C%E7%A0%81.assets/3.jpg" alt="3"></p><p><img src="/img/%E8%BF%AA%E7%BB%B4%E8%AE%AFp200h%E6%95%85%E9%9A%9C%E7%A0%81.assets/6.jpg" alt="6"></p><p><img src="/img/%E8%BF%AA%E7%BB%B4%E8%AE%AFp200h%E6%95%85%E9%9A%9C%E7%A0%81.assets/5.jpg" alt="5"></p>]]></content>
     
     
     <categories>
