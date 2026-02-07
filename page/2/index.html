@@ -633,7 +633,6 @@
                   // 打字机输出内容
                   var apiText;
                   // 一言、来源作品、发言人
-                  var content, name, fromWho;
                   // 从一言接口得到的JSON结果
                   if (result) {
                       // 需要的结果字段名，取决于_config[.主题名称].yml中的配置
@@ -645,23 +644,14 @@
                       // 取出实际展示的字段
                       for (const k of keys) {
                           var value = result[k];
-                          if (typeof value === 'string') {
-                              if (content == null) {
-                                  content = value;
-                              } else if (name == null) {
-                                  name = value
-                              } else if (fromWho == null) {
-                                  fromWho = value;
-                              }
+                            if (typeof value === 'string') {
+                  apiText = value;
+                  break;
                           } else if (value instanceof Object) {
                               result = value;
                           }
                       }
-                      // 一言的发言人可能未知
-                      if (fromWho != null) {
-                          apiText += fromWho;
-                      }
-                      apiText += '「' + name + '」</p>';
+                    
                   }
                   apiText ? typing(apiText) : typing(text);
               },
@@ -670,13 +660,12 @@
                       console.error('Failed to request https://api.xygeng.cn/one:', error);
                   }
                   typing(text);
-              }
-          })
-          
-      })(window, document);
-  </script>
- 
-
+               }
+             })
+           
+         })(window, document);
+       </script>
+     
 
 
   
