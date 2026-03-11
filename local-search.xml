@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>IPM模块故障小节</title>
+    <link href="/2026/03/11/IPM%E6%A8%A1%E5%9D%97%E6%95%85%E9%9A%9C%E5%B0%8F%E8%8A%82/"/>
+    <url>/2026/03/11/IPM%E6%A8%A1%E5%9D%97%E6%95%85%E9%9A%9C%E5%B0%8F%E8%8A%82/</url>
+    
+    <content type="html"><![CDATA[<p>IPM模块故障在大多数伺服驱动的说明书里都有提到过。</p><hr><h5 id="启动时报错："><a href="#启动时报错：" class="headerlink" title="启动时报错："></a>启动时报错：</h5><p>伺服驱动损坏，更换驱动。</p><h5 id="运行时报错："><a href="#运行时报错：" class="headerlink" title="运行时报错："></a>运行时报错：</h5><p>伺服动力线异常，检查线路。</p><p>电机损坏，更换电机。</p><p>信号干扰，更换为屏蔽线（概率低）</p><hr><p>大部分时间都是和伺服的动力系统有关系，请先检查动力线路是否有短路。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>电工基础</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>伺服驱动</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>LG845BL解锁</title>
     <link href="/2026/02/09/LG845BL%E8%A7%A3%E9%94%81/"/>
     <url>/2026/02/09/LG845BL%E8%A7%A3%E9%94%81/</url>
