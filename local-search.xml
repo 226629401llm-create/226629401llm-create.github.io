@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>带有信号屏蔽的通电延时设计</title>
+    <link href="/2026/04/10/%E5%B8%A6%E6%9C%89%E4%BF%A1%E5%8F%B7%E5%B1%8F%E8%94%BD%E7%9A%84%E9%80%9A%E7%94%B5%E5%BB%B6%E6%97%B6%E8%AE%BE%E8%AE%A1/"/>
+    <url>/2026/04/10/%E5%B8%A6%E6%9C%89%E4%BF%A1%E5%8F%B7%E5%B1%8F%E8%94%BD%E7%9A%84%E9%80%9A%E7%94%B5%E5%BB%B6%E6%97%B6%E8%AE%BE%E8%AE%A1/</url>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>这是一个带有信号屏蔽的通电延时保压设计</p><p>需要完成的任务有：</p><ol><li>信号检测动作</li><li>动作延时</li><li>信号暂时屏蔽</li><li>从头开始</li></ol><h3 id="EPLAN绘制"><a href="#EPLAN绘制" class="headerlink" title="EPLAN绘制"></a>EPLAN绘制</h3><div class="note note-warning">            <p>图标和字符存在不规范，未经实际测试，请勿轻易尝试：</p>           </div><p><img src="/img/%E5%B8%A6%E6%9C%89%E4%BF%A1%E5%8F%B7%E5%B1%8F%E8%94%BD%E7%9A%84%E9%80%9A%E7%94%B5%E5%BB%B6%E6%97%B6%E8%AE%BE%E8%AE%A1.assets/image-20260410223955342.png" alt="EPLAN设计"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>电工基础</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>电路</tag>
+      
+      <tag>电工</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>chromebook刷写Windows</title>
     <link href="/2026/03/31/chromebook%E5%88%B7%E5%86%99Windows/"/>
     <url>/2026/03/31/chromebook%E5%88%B7%E5%86%99Windows/</url>
