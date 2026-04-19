@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>沪工接近开关选型</title>
+    <link href="/2026/04/19/%E6%B2%AA%E5%B7%A5%E6%8E%A5%E8%BF%91%E5%BC%80%E5%85%B3%E9%80%89%E5%9E%8B/"/>
+    <url>/2026/04/19/%E6%B2%AA%E5%B7%A5%E6%8E%A5%E8%BF%91%E5%BC%80%E5%85%B3%E9%80%89%E5%9E%8B/</url>
+    
+    <content type="html"><![CDATA[<p>本文介绍的是沪工集团生产的接近开关选型说明：</p><table><thead><tr><th align="center">位数</th><th align="center">参数定义</th><th align="left">参数说明</th></tr></thead><tbody><tr><td align="center">第一段</td><td align="center">感应方式</td><td align="left">无字：电感式     C：电容式     G：干簧管式</td></tr><tr><td align="center">第二段</td><td align="center">外形序号</td><td align="left">12：外形直径12mm     18：外形直径18mm     30：外形直径30mm</td></tr><tr><td align="center">第三段</td><td align="center">结构形式</td><td align="left">A3：圆柱型螺管金属外壳     A4：圆柱型螺管塑料外壳</td></tr><tr><td align="center">第四段</td><td align="center">动作距离</td><td align="left">1：检测距离1mm     4：检测距离4mm     8：检测距离8mm     B：检测距离1<del>8mm     T：检测距离1</del>12mm     H：检测距离1<del>15mm     K：检测距离1</del>25mm</td></tr><tr><td align="center">第五段</td><td align="center">工作电源范围</td><td align="left">Z：直流6<del>36V     Z1：直流 30</del>65V     J：交流90<del>250V     J1：交流300</del>400V</td></tr><tr><td align="center">第六段</td><td align="center">输出形式</td><td align="left">A：三线制常闭     B：三线制常开     C：四线制常开及常闭     D：二线制常闭     E：二线制常开</td></tr><tr><td align="center">第七段</td><td align="center">输出电流</td><td align="left">X:NPN DC  200mA     Y: PNP DC 200mA     Z:400mA     M:500mA     W:1500mA</td></tr><tr><td align="center">第八段</td><td align="center">应用表示</td><td align="left">A：耐高低温及全密封型；AJ带继电器型，为大电流输出     无字：一般工控应用</td></tr><tr><td align="center">第九段</td><td align="center">使用分类</td><td align="left">P：配用单片机、PC机、电子计数、数码控制     无字：配用电磁继电器、接触器</td></tr></tbody></table>]]></content>
+    
+    
+    <categories>
+      
+      <category>电工基础</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>线路</tag>
+      
+      <tag>说明书</tag>
+      
+      <tag>接近开关</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>带有信号屏蔽的通电延时设计</title>
     <link href="/2026/04/10/%E5%B8%A6%E6%9C%89%E4%BF%A1%E5%8F%B7%E5%B1%8F%E8%94%BD%E7%9A%84%E9%80%9A%E7%94%B5%E5%BB%B6%E6%97%B6%E8%AE%BE%E8%AE%A1/"/>
     <url>/2026/04/10/%E5%B8%A6%E6%9C%89%E4%BF%A1%E5%8F%B7%E5%B1%8F%E8%94%BD%E7%9A%84%E9%80%9A%E7%94%B5%E5%BB%B6%E6%97%B6%E8%AE%BE%E8%AE%A1/</url>
