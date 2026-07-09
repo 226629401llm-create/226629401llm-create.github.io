@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Linux基本指令</title>
+    <link href="/2026/05/24/Linux%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/"/>
+    <url>/2026/05/24/Linux%E5%9F%BA%E6%9C%AC%E6%8C%87%E4%BB%A4/</url>
+    
+    <content type="html"><![CDATA[<p>tip：指令只运行在Ubuntu使用测试过！</p><h4 id="linux的基本指令及含义："><a href="#linux的基本指令及含义：" class="headerlink" title="linux的基本指令及含义："></a>linux的基本指令及含义：</h4><p>su：使用root身份登录。</p><p>sudo：使用root权限运行指令。</p><p>apt install app：安装软件(app)。</p><p>apt install update：更新软件。</p><h4 id="Linux基本语法："><a href="#Linux基本语法：" class="headerlink" title="Linux基本语法："></a>Linux基本语法：</h4><p>sudo 软件包名 操作数 操作对象</p><p>sudo为可选项，防止权限不足。</p><p>apt为乌班图等大多数Linux使用的包管理器，其他系统可能使用yun等其他包管理器。</p><p>所以如果sudo apt update显示found则可能系统包管理器为其他，例如修改为sudo yun update</p><div class="note note-success">            <p>文章内容持续更新中</p>           </div>]]></content>
+    
+    
+    <categories>
+      
+      <category>Linux</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>linux</tag>
+      
+      <tag>指令</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>rk3399部署onekvm</title>
     <link href="/2026/05/17/rk3399%E9%83%A8%E7%BD%B2onekvm/"/>
     <url>/2026/05/17/rk3399%E9%83%A8%E7%BD%B2onekvm/</url>
